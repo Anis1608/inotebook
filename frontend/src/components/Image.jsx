@@ -12,7 +12,7 @@ const ImageUpload = () => {
             });
 
             try {
-                const response = await fetch('https://anis-drive-app.onrender.com/api/image/upload', formData, {
+                const response = await fetch('https://inotebook-anis.onrender.com/api/image/upload', formData, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'multipart/form-data',

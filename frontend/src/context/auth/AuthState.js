@@ -2,12 +2,12 @@ import AuthContext from "./authcontext";
 import React, { useState } from "react";
 
 const AuthState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://inotebook-anis.onrender.com/";
   const credentialsinitial = [];
   const [credentials, setCredentials] = useState(credentialsinitial);
 
    const getUser = async () => {
-     const response = await fetch("https://anis-drive-app.onrender.com/api/auth/getuser", {
+     const response = await fetch("https://inotebook-anis.onrender.com/api/auth/getuser", {
        method: "POST",
        headers: {
          "Content-Type": "application/json",

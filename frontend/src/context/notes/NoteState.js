@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 const NoteState = (props) => {
-  const host = "https://anis-drive-app.onrender.com/";
+  const host = "https://inotebook-anis.onrender.com/";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
